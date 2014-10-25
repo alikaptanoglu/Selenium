@@ -7,29 +7,14 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Support.UI;
 
-namespace SeleniumTests
+namespace Tests
 {
-	public static class Extensions
-	{
-		public static void ClearAndSetText(this IWebElement element, string text)
-		{
-			element.Clear ();
-			element.SendKeys (text);
-		}
-	}
-
 	[TestFixture]
 	public class ThortsAppTestCase
 	{
 		private IWebDriver driver;
 		private StringBuilder verificationErrors;
 		private string baseURL;
-		private bool acceptNextAlert = true;
-
-		[SetUpFixture]
-		public void GlobalSetup()
-		{
-		}
 
 		[TestFixtureSetUp]
 		public void SetupTests()

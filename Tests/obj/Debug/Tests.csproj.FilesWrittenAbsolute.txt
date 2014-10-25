@@ -1,0 +1,8 @@
+/Users/jonathan/Documents/Development/Selenium/Github/Selenium/Tests/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/jonathan/Documents/Development/Selenium/Github/Selenium/Tests/bin/Debug/nunit.framework.dll
+/Users/jonathan/Documents/Development/Selenium/Github/Selenium/Tests/bin/Debug/WebDriver.dll
+/Users/jonathan/Documents/Development/Selenium/Github/Selenium/Tests/bin/Debug/WebDriver.Support.dll
+/Users/jonathan/Documents/Development/Selenium/Github/Selenium/Tests/bin/Debug/Tests.dll.mdb
+/Users/jonathan/Documents/Development/Selenium/Github/Selenium/Tests/bin/Debug/Tests.dll
+/Users/jonathan/Documents/Development/Selenium/Github/Selenium/Tests/obj/Debug/Tests.dll
+/Users/jonathan/Documents/Development/Selenium/Github/Selenium/Tests/obj/Debug/Tests.dll.mdb
