@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selenium", "Selenium\Selenium.csproj", "{4195A544-0471-48C4-9697-C8E457640B01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{2D385A6F-8CDA-489B-96D5-6E673EB8C780}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D385A6F-8CDA-489B-96D5-6E673EB8C780}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2D385A6F-8CDA-489B-96D5-6E673EB8C780}.Debug|x86.Build.0 = Debug|Any CPU
+		{2D385A6F-8CDA-489B-96D5-6E673EB8C780}.Release|x86.ActiveCfg = Release|Any CPU
+		{2D385A6F-8CDA-489B-96D5-6E673EB8C780}.Release|x86.Build.0 = Release|Any CPU
+		{4195A544-0471-48C4-9697-C8E457640B01}.Debug|x86.ActiveCfg = Debug|x86
+		{4195A544-0471-48C4-9697-C8E457640B01}.Debug|x86.Build.0 = Debug|x86
+		{4195A544-0471-48C4-9697-C8E457640B01}.Release|x86.ActiveCfg = Release|x86
+		{4195A544-0471-48C4-9697-C8E457640B01}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Selenium\Selenium.csproj
+	EndGlobalSection
+EndGlobal

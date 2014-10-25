@@ -1,0 +1,8 @@
+/Users/jonathan/Projects/Selenium/Selenium/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/jonathan/Projects/Selenium/Selenium/bin/Debug/Selenium.exe.mdb
+/Users/jonathan/Projects/Selenium/Selenium/bin/Debug/Selenium.exe
+/Users/jonathan/Projects/Selenium/Selenium/obj/x86/Debug/Selenium.exe
+/Users/jonathan/Projects/Selenium/Selenium/obj/x86/Debug/Selenium.exe.mdb
+/Users/jonathan/Projects/Selenium/Selenium/bin/Debug/WebDriver.dll
+/Users/jonathan/Projects/Selenium/Selenium/bin/Debug/WebDriver.Support.dll
+/Users/jonathan/Projects/Selenium/Selenium/bin/Debug/nunit.framework.dll
