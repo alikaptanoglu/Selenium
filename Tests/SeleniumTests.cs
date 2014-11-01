@@ -12,6 +12,7 @@ namespace Tests
 	[TestFixture]
 	public class ThortsAppTestCase
 	{
+		// comment
 		private IWebDriver driver;
 		private StringBuilder verificationErrors;
 		private string baseURL;
