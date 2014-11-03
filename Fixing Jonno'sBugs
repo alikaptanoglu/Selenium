@@ -54,11 +54,12 @@ namespace SeleniumTests
             driver.Navigate().GoToUrl("http://www.australianunity.com.au/health-insurance/overseas-visitor-cover/compare-overseas-visitors-cover-products/non-working-visitors-cover-products");
             driver.FindElement(By.Id("main_1_rptProductDetails_ctl00_pdProductDetails_btnBuyNow")).Click();
             driver.FindElement(By.Id("main_1_rbPayFreqMonth")).Click();
-            
-            //var productNameElement = driver.FindElement(By.CssSelector("span.premium-pruduct-name a"));
-            //var productName = productNameElement.Text;
-            
-            //Assert.IsTrue(productName.StartsWith("Budget Overseas Visitors Cover"));
+         
+            new SelectElement(driver.FindElement(By.Id("ddlMyDOBDays"))).SelectByText("01");
+            driver.FindElement(By.CssSelector("#ddlMyDOBDays > option[value=\"01\"]")).Click();
+            new SelectElement(driver.FindElement(By.Id("ddlMyDOBMonths"))).SelectByText("Jan");
+            driver.FindElement(By.CssSelector("#ddlMyDOBMonths > option[value=\"Jan\"]")).Click();
+            Assert.AreEqual("$97.45", driver.FindElement(By.Id("main_1_premiumamount")).Text);
 
             Assert.AreEqual("Budget Overseas Visitors Cover", driver.FindElement(By.Id("main_1_rptHealthcoverTypes_ctl00_Label2")).Text);
 
